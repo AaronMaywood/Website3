@@ -1,0 +1,4 @@
+@charset "utf-8";
+
+.when-desktop { display: block; }
+.when-mobile { display: none; }
