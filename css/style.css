@@ -23,7 +23,7 @@ ul {
 a {
 	text-decoration: none;
 	color: white;
-	font-size: 1.25rem;	/* 20px */
+	font-size: 20px;
 }
 
 /* resetここまで */
@@ -37,7 +37,7 @@ button {
 	color: white;
 	border-radius: 5px;
 	padding: 0.5rem 1rem;
-	font-size: 0.875rem;  /* 14px */
+	font-size: 14px;
 }
 
 body {
@@ -65,7 +65,7 @@ body {
 	justify-content: flex-end;
 	align-items: center;
 	gap: 40px;
-	font-size: 0.875rem;  /* 14px */
+	font-size: 14px;
 }
 
 .firstview ul a {
@@ -84,12 +84,12 @@ body {
 
 .firstview .flex h1 {
 	font-weight: 800; /* EntraBold */
-	font-size: 4.0rem;      /* 64px */
+	font-size: 64px;
 }
 
 .firstview .flex p {
 	font-weight: 400; /* Regular */
-	font-size: 1.25rem;     /* 20px */
+	font-size: 20px;
 }
 
 .firstview .flex .search {
@@ -118,7 +118,7 @@ input:focus-visible {
 }
 	
 .firstview .flex button p {
-	font-size: 1.0rem;      /* 16px */
+	font-size: 16px;
 	font-weight: 700; /* Bold */
 }
 
@@ -134,11 +134,11 @@ input:focus-visible {
 	
 .contents-1st header h2 {
 	font-weight: 800; /* ExtraBold */
-	font-size: 2.25rem;     /* 36px */
+	font-size: 36px;
 }
 
 .contents-1st header p {
-	font-size: 1.5rem;      /* 24px */
+	font-size: 24px;
 	max-width: 994px;
 }
 
@@ -161,11 +161,11 @@ input:focus-visible {
 
 .contents-1st .item .heading {
 	font-weight: 800; /* ExtraBold */
-	font-size: 1.5rem;      /* 24px */
+	font-size: 24px;
 }
 
 .contents-1st .item .dec {
-	font-size: 1.125rem;    /* 18px */
+	font-size: 18px;
 }
 
 .contents-2nd {
@@ -176,13 +176,13 @@ input:focus-visible {
 
 .contents-2nd header h2 {
 	padding-top: 68px;
-	font-size: 3.0rem;      /* 48px */
+	font-size: 48px;
 	font-weight: 800; /* ExtraBold */
 	text-align: center;
 }
 
 .contents-2nd header p {
-	font-size: 1.125rem;    /* 18px */
+	font-size: 18px;
 	text-align: center;
 }
 
@@ -197,7 +197,7 @@ input:focus-visible {
 }
 
 .contents-2nd ul li {
-	font-size: 1.125rem;    /* 18px */
+	font-size: 18px;
 	font-weight: 700; /* Bold */
 	width: 200px;
 }
@@ -231,12 +231,12 @@ input:focus-visible {
 }
 
 .card-desc h2 {
-	font-size: 4.0rem;      /* 64px */
+	font-size: 64px;
 	font-weight: 700; /* Bold */
 }
 
 .card-desc p {
-	font-size: 1.0rem;      /* 16px */
+	font-size: 16px;
 	color: #808080;		/* 灰色(2) */
 }
 
@@ -246,7 +246,7 @@ input:focus-visible {
 }
 
 .card-desc button p {
-	font-size: 0.875rem;    /* 14px */
+	font-size: 14px;
 	font-weight: 600; /* SemiBold */
 	color: white;
 }
@@ -265,12 +265,12 @@ input:focus-visible {
 }
 
 .contents-5th header h2 {
-	font-size: 3.0rem;      /* 48px */
+	font-size: 48px;
 	font-weight: 800; /* ExtraBold */
 }
 
 .contents-5th header p {
-	font-size: 1.125rem;    /* 18px */
+	font-size: 18px;
 }
 
 .contents-5th li {
@@ -316,13 +316,13 @@ input:focus-visible {
 
 .contents-6th h2 {
 	margin-top: 10px;
-	font-size: 3.0rem;      /* 48px */
+	font-size: 48px;
 	font-weight: 800; /* ExtraBold */
 }
 
 .contents-6th > p {
 	margin-top: 20px;
-	font-size: 1.125rem;    /* 18px */
+	font-size: 18px;
 }
 
 .contents-6th button {
@@ -331,7 +331,7 @@ input:focus-visible {
 }
 
 .contents-6th button p {
-	font-size: 1.5rem;      /* 24px */
+	font-size: 24px;
 	font-weight: 600; /* SemiBold */
 }
 
@@ -347,12 +347,12 @@ footer .lists {
 }
 
 footer .lists h2 {
-	font-size: 1.0rem;      /* 16px */
+	font-size: 16px;
 	font-weight: 700; /* Bold */
 }
 
 footer .lists li a {
-	font-size: 1.0rem;      /* 16px */
+	font-size: 16px;
 }
 
 footer .lists section {
@@ -382,7 +382,7 @@ footer .bottom ul {
 @media (max-width: 944px) {
 
 	a {
-		font-size: 0.875rem;    /* 14px */
+		font-size: 14px;
 	}
 
 	.firstview .flex {
@@ -422,18 +422,18 @@ footer .bottom ul {
 	}
 
 	.firstview .flex h1 {
-		font-size: 2.625rem;    /* 42px */
+		font-size: 42px;
 		text-align: center;
 	}
 
 	.firstview .flex p {
-		font-size: 0.75rem;     /* 12px */
+		font-size: 12px;
 		text-align: center;
 	}
 
 	.firstview .flex input {
 		width: 70%;
-		font-size: 0.875rem;    /* 14px */
+		font-size: 14px;
 	}
 
 	.firstview .flex button {
@@ -441,7 +441,7 @@ footer .bottom ul {
 	}
 
 	.firstview .flex button p {
-		font-size: 0.875rem;    /* 14px */
+		font-size: 14px;
 	}
 
 	.firstview {
@@ -460,11 +460,11 @@ footer .bottom ul {
 	}
 
 	.contents-1st header h2 {
-		font-size: 1.5rem;      /* 24px */
+		font-size: 24px;
 	}
 
 	.contents-1st header p {
-		font-size: 0.75rem;     /* 12px */
+		font-size: 12px;
 		width: 100%;
 	}
 
@@ -478,11 +478,11 @@ footer .bottom ul {
 	}
 
 	.contents-2nd header h2 {
-		font-size: 2.25rem;     /* 36px */
+		font-size: 36px;
 	}
 
 	.contents-2nd header p {
-		font-size: 0.875rem;    /* 14px */
+		font-size: 14px;
 	}
 
 	.contents-2nd ul {
@@ -509,23 +509,23 @@ footer .bottom ul {
 	}
 
 	.card-desc h2 {
-		font-size: 2.25rem;     /* 36px */
+		font-size: 36px;
 	}
 	.card-desc p {
-		font-size: 0.875rem;    /* 14px */
+		font-size: 14px;
 	}
 
 	.card-desc button {
-		font-size: 0.875rem;    /* 14px */
+		font-size: 14px;
 		width: 100%;
 	}
 
 	.contents-5th header h2 {
-		font-size: 2.25rem;     /* 36px */
+		font-size: 36px;
 	}
 
 	.contents-5th header p {
-		font-size: 0.875rem;    /* 14px */
+		font-size: 14px;
 	}
 
 	.contents-6th {
@@ -534,18 +534,15 @@ footer .bottom ul {
 	}
 
 	.contents-6th h2 {
-	font-size: 2.25rem;     /* 36px */
+		font-size: 36px;
 	}
 
 	.contents-6th > p {
-	font-size: 0.875rem;    /* 14px */
-	}
-
-	.contents-6th button {
+		font-size: 14px;
 	}
 
 	.contents-6th button p {
-	font-size: 1.0rem;      /* 16px */
+		font-size: 16px;
 	}
 
 	footer {
