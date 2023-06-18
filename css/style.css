@@ -343,7 +343,8 @@ footer {
 
 footer .lists {
 	display: flex;
-	gap: 100px;
+	justify-content: space-between;
+	gap: 5vw;
 }
 
 footer .lists h2 {
@@ -550,8 +551,7 @@ footer .bottom ul {
 	}
 
 	footer .lists {
-		flex-direction: column;
-		gap: 50px;
+		flex-wrap: wrap;
 	}
 
 	footer .bottom {
@@ -570,6 +570,15 @@ footer .bottom ul {
 
 	footer .bottom .sns {
 		grid-area: sns;
+	}
+
+}
+
+/* mobile - @media (max-width: 500px) { */
+@media (max-width: 500px) {
+
+	footer .lists {
+		flex-direction: column;
 	}
 
 }
