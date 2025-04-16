@@ -2,7 +2,8 @@
 
 ## 教材について
 
-この教材の作者はCan Çevik@cancevik 氏(https://www.figma.com/@cancevik) で、本作はクリエィティブコモンズ 表示 4.0 国際ライセンス（https://creativecommons.org/licenses/by/4.0/deed.ja）にて https://www.figma.com/community/file/992410574427069906 で配付されており、さらにアジャストアカデミーの手で加筆修正したものです。
+「[Responsive Web Page](https://www.figma.com/community/file/992410574427069906/responsive-web-page)」は[クリエイティブ・コモンズ 表示 4.0 国際](https://creativecommons.org/licenses/by/4.0/deed.ja)」のもとに利用を許諾されています。帰属：[Can Çevik](https://www.figma.com/@cancevik)。株式会社アジャストにより、テキスト・画像素材を差し替えて使用しています。
+また、画像素材にはGoogle によるマテリアルシンボルを使用しています。© 2016 Google Inc. / [Apache License 2.0](https://licenses.opensource.jp/Apache-2.0/Apache-2.0.html)
 
 ## リセットCSS
 
