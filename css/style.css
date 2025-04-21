@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 
-/* ボタンのリセット ... https://qiita.com/nabettu/items/1593af04e48444c45c53 より */
+/* ボタンのリセット */
 button{
 	background-color: transparent;
 	border: none;
