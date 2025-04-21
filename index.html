@@ -4,13 +4,14 @@
 	<meta charset="UTF-8">
 	<title>Responsive Webpage</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="css/style.css" rel="stylesheet">
 	<!-- Google Fonts で発行したコードスニペット -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
+	<header class="firstview">
 		<div class="when-desktop">
 			<nav>
 				<ul>
@@ -31,143 +32,211 @@
 				</ul>
 			</nav>
 		</div>
-		<h1>情報技術における23年の実績</h1>
-		<p>お客様が高い品質レベルを維持できるように、さまざまな分野で経験を積んだ専門スタッフがプロジェクト管理、ビジネス分析、およびテスト管理サービスを提供します。 </p>
-		<input type="text" name="keyword" placeholder="メールマガジンの登録">
-		<button type="button"><p>登録</p></button>
+		<div class="flex">
+			<h1>情報技術における23年の実績</h1>
+			<p>お客様が高い品質レベルを維持できるように、さまざまな分野で経験を積んだ専門スタッフがプロジェクト管理、ビジネス分析、およびテスト管理サービスを提供します。 </p>
+			<div class="search">
+				<input type="text" name="keyword" placeholder="メールマガジンの登録">
+				<button type="button"><p>登録</p></button>
+			</div>
+		</div>
 	</header>
-	<section>
-		<h2>品質及びプロセス管理</h2>
-		<p>お客様が高い品質レベルを維持できるように、さまざまな分野で経験を積んだ専門スタッフがプロジェクト管理、ビジネス分析、およびテスト管理サービスを提供します。 </p>
+	<section class="contents-1st">
+		<header>
+			<h2>品質及びプロセス管理</h2>
+			<p>お客様が高い品質レベルを維持できるように、さまざまな分野で経験を積んだ専門スタッフがプロジェクト管理、ビジネス分析、およびテスト管理サービスを提供します。 </p>
+		</header>
 		<ul>
 			<li>
-				<img src="images/Group 33.svg" width="79" height="77" alt="">
-				<p>ドキュメント分析</p>
-				<p>また、このような場合、その場ですぐに対応することができます。このような場合、このような要素を考慮する必要があります。</p>
+				<div class="item">
+					<img src="images/icon1.svg" height="80" alt="">
+					<p class="heading">ドキュメント分析</p>
+					<p class="desc">また、このような場合、その場ですぐに対応することができます。このような場合、このような要素を考慮する必要があります。</p>
+				</div>
 			</li>
 			<li>
-				<img src="images/Group 27.svg" width="81" height="76" alt="">
-				<p>受け入れと評価</p>
-				<p>また、このような場合、その場ですぐに対応することができます。このような場合、このような要素を考慮する必要があります。</p>
+				<div class="item">
+					<img src="images/icon2.svg" height="80" alt="">
+					<p class="heading">受け入れと評価</p>
+					<p class="desc">また、このような場合、その場ですぐに対応することができます。このような場合、このような要素を考慮する必要があります。</p>
+				</div>
 			</li>
 			<li>
-				<img src="images/Group 28.svg" width="90" height="76" alt="">
-				<p>ビジネスルール分析</p>
-				<p>また、このような場合、その場ですぐに対応することができます。このような場合、このような要素を考慮する必要があります。</p>
+				<div class="item">
+					<img src="images/icon3.svg" height="80" alt="">
+					<p class="heading">ビジネスルール分析</p>
+					<p class="desc">また、このような場合、その場ですぐに対応することができます。このような場合、このような要素を考慮する必要があります。</p>
+				</div>
 			</li>
 			<li>
-				<img src="images/Group 29.svg" width="77" height="76" alt="">
-				<p>フロー図</p>
-				<p>また、このような場合、その場ですぐに対応することができます。このような場合、このような要素を考慮する必要があります。</p>
+				<div class="item">
+					<img src="images/icon4.svg" height="80" alt="">
+					<p class="heading">フロー図</p>
+					<p class="desc">また、このような場合、その場ですぐに対応することができます。このような場合、このような要素を考慮する必要があります。</p>
+				</div>
 			</li>
 			<li>
-				<img src="images/Group 30.svg" width="83" height="78" alt="">
-				<p>利害関係者分析</p>
-				<p>また、このような場合、その場ですぐに対応することができます。このような場合、このような要素を考慮する必要があります。</p>
+				<div class="item">
+					<img src="images/icon5.svg" width="83" height="78" alt="">
+					<p class="heading">利害関係者分析</p>
+					<p class="desc">また、このような場合、その場ですぐに対応することができます。このような場合、このような要素を考慮する必要があります。</p>
+				</div>
 			</li>
 			<li>
-				<img src="images/Group 31.svg" width="67" height="78" alt="">
-				<p>原型</p>
-				<p>また、このような場合、その場ですぐに対応することができます。このような場合、このような要素を考慮する必要があります。</p>
+				<div class="item">
+					<img src="images/icon6.svg" width="67" height="78" alt="">
+					<p class="heading">原型</p>
+					<p class="desc">また、このような場合、その場ですぐに対応することができます。このような場合、このような要素を考慮する必要があります。</p>
+				</div>
 			</li>
 		</ul>
 	</section>
-	<section>
-		<h2>テスト管理で何を提供しますか？</h2>
-		<p>IoT対応ソリューション</p>
+	<section class="contents-2nd">
+		<header>
+			<h2>テスト管理で何を提供しますか？</h2>
+			<p>IoT対応ソリューション</p>
+		</header>
 		<ul>
+			<!-- caret（項目と項目の間の矢印） はリストの一部ではなく装飾であるため、li要素にしない方法があればなお良い -->
 			<li>ソフトウェア品質向上</li>
-			<li class="when-desktop"><img src="images/CaretCircleDoubleRight.svg" width="32" height="32" alt=""></li>
-			<li class="when-mobile"><img src="images/CaretCircleDoubleRight_vert.svg" width="32" height="32" alt=""></li>
+			<li class="caret when-desktop"><img src="images/CaretCircleDoubleRight.svg" width="32" height="32" alt=""></li>
+			<li class="caret when-mobile"><img src="images/CaretCircleDoubleRight_vert.svg" width="32" height="32" alt=""></li>
 			<li>起こりうるエラーを予測</li>
-			<li class="when-desktop"><img src="images/CaretCircleDoubleRight.svg" width="32" height="32" alt=""></li>
-			<li class="when-mobile"><img src="images/CaretCircleDoubleRight_vert.svg" width="32" height="32" alt=""></li>
+			<li class="caret when-desktop"><img src="images/CaretCircleDoubleRight.svg" width="32" height="32" alt=""></li>
+			<li class="caret when-mobile"><img src="images/CaretCircleDoubleRight_vert.svg" width="32" height="32" alt=""></li>
 			<li>起こりうるリスクを防止</li>
-			<li class="when-desktop"><img src="images/CaretCircleDoubleRight.svg" width="32" height="32" alt=""></li>
-			<li class="when-mobile"><img src="images/CaretCircleDoubleRight_vert.svg" width="32" height="32" alt=""></li>
+			<li class="caret when-desktop"><img src="images/CaretCircleDoubleRight.svg" width="32" height="32" alt=""></li>
+			<li class="caret when-mobile"><img src="images/CaretCircleDoubleRight_vert.svg" width="32" height="32" alt=""></li>
 			<li>時間とコストを節約</li>
 		</ul>
 	</section>
-	<section>
-		<img src="images/Illustration1.jpg" alt="">
-		<h2>品質及びプロセス管理</h2>
-		<p>経験豊富なスタッフ; PMP®認定を取得した、さまざまな分野の経験豊富なプロジェクトマネージャーで構成されています。 プロジェクトの管理をサポートし、弱点分野を強化し、国際的に有効な PMI® 方法論を貴社に適用して開発するために、私たちはあなたと一緒にいます。</p>
-		<button type="button"><p>探す</p></button>
+	<section class="contents-3rd card">
+		<img src="images/Illustration1.png" alt="">
+		<div class="card-desc">
+			<h2>品質及びプロセス管理</h2>
+			<p>経験豊富なスタッフ; PMP®認定を取得した、さまざまな分野の経験豊富なプロジェクトマネージャーで構成されています。 プロジェクトの管理をサポートし、弱点分野を強化し、国際的に有効な PMI® 方法論を貴社に適用して開発するために、私たちはあなたと一緒にいます。</p>
+			<button type="button"><p>探す</p></button>
+		</div>
 	</section>
-	<section>
-		<img src="images/Illustration.jpg" alt="">
-		<div>
+	<section class="contents-4th card">
+		<img src="images/Illustration.png" alt="">
+		<div class="card-desc">
 			<h2>テスト管理と分析</h2>
 			<p>私たちが実行するテストを慎重に適用して、参照するプロジェクトのソフトウェア エラーを防止します。すべてのプロジェクト段階で手動またはテスト自動化を使用します。 当社の経験豊富なテスト チームは、教育機関に高品質のソフトウェア テスト サービスと、完全に安全で高品質で満足のいく顧客体験を提供します。</p>
 			<button type="button"><p>探す</p></button>
 		</div>
 	</section>
-	<section>
+	<section class="contents-5th">
 		<header>
 			<h2>パートナー</h2>
 			<p>私たちを信頼し、共に働くビジネスパートナー</p>
 		</header>
 		<ul>
+<!--
+			<li class="borusan"><img src="images/image 6.png" width="134" height="67" alt="BORUSAN"></li>
+			<li class="istanbul"><img src="images/image 5.png" width="122" height="61" alt="Istanbul Bilgi Universitesi"></li>
+			<li class="bookmy"><img src="images/Group.svg" width="123" height="37" alt="book my Show"></li>
+			<li class="akbank"><img src="images/image 2.png" width="132" height="66" alt="AKBANK"></li>
+			<li class="akcansa"><img src="images/image 3.png" width="132" height="66" alt="AKCANSA"></li>
+			<li class="tumunu"><img src="images/Frame 4.svg" width="167" height="52" alt="Tumunu Gor"></li>
+			<li class="aktas"><img src="images/image 4.png" width="118" height="59" alt="aktas"></li>
+			<li class="ola"><img src="images/OLA logo.svg" width="98" height="34" alt="OLA"></li>
+			<li class="amazon"><img src="images/Amazon Logo.svg" width="103" height="32" alt="Amazon"></li>
+-->
+			<li class="logo1"><img src="images/logo_01.png" height="30" alt=""></li>
+			<li class="logo2"><img src="images/logo_02.png" height="30" alt=""></li>
+			<li class="logo3"><img src="images/logo_03.png" height="30" alt=""></li>
+			<li class="logo4"><img src="images/logo_04.png" height="30" alt=""></li>
+			<li class="logo5"><img src="images/logo_05.png" height="30" alt=""></li>
+			<li class="logo6"><img src="images/logo_06.png" height="30" alt=""></li>
+			<li class="logo7"><img src="images/logo_07.png" height="30" alt=""></li>
+			<li class="logo8"><img src="images/logo_08.png" height="30" alt=""></li>
+			<li class="logo9"><img src="images/logo_09.png" height="30" alt=""></li>
+
+		</ul>
+
+		<!-- 改良前の姿
+		上記のul はgridを使用する前はflexを利用して次のようなulの階層で実現していた。
+		ulの階層ではリストの意味が変わる（階層付きリストになる）ため、上記のようにgridを使用し、ulが１階層になるようにした
+		<ul>
 			<li><img src="images/image 6.png" width="134" height="67" alt="BORUSAN"></li>
-			<li><img src="images/image 5.png" width="122" height="61" alt="Istanbul Bilgi Universitesi"></li>
-			<li><img src="images/Group.svg" width="123" height="37" alt="book my Show"></li>
-			<li><img src="images/image 2.png" width="132" height="66" alt="AKBANK"></li>
-			<li><img src="images/image 3.png" width="132" height="66" alt="AKCANSA"></li>
-			<li><img src="images/Frame 4.svg" width="167" height="52" alt="Tumunu Gor"></li>
-			<li><img src="images/image 4.png" width="118" height="59" alt="aktas"></li>
-			<li><img src="images/OLA logo.svg" width="98" height="34" alt="OLA"></li>
+			<li class="ul-wrapper">
+				<ul>
+					<li><img src="images/image 5.png" width="122" height="61" alt="Istanbul Bilgi Universitesi"></li>
+					<li><img src="images/Group.svg" width="123" height="37" alt="book my Show"></li>
+				</ul>
+			</li>
+			<li class="ul-wrapper">
+				<ul>
+					<li><img src="images/image 2.png" width="132" height="66" alt="AKBANK"></li>
+					<li><img src="images/image 3.png" width="132" height="66" alt="AKCANSA"></li>
+					<li><img src="images/Frame 4.svg" width="167" height="52" alt="Tumunu Gor"></li>
+				</ul>
+			</li>
+			<li class="ul-wrapper">
+				<ul>
+					<li><img src="images/image 4.png" width="118" height="59" alt="aktas"></li>
+					<li><img src="images/OLA logo.svg" width="98" height="34" alt="OLA"></li>
+				</ul>
+			</li>
 			<li><img src="images/Amazon Logo.svg" width="103" height="32" alt="Amazon"></li>
 		</ul>
+		-->
+
 	</section>
-	<section>
-		<img src="images/Group 32.svg" width="120" height="120" alt="">
+	<section class="contents-6th">
+		<img src="images/icon7.svg" width="120" height="120" alt="">
 		<h2>お問い合わせ</h2>
 		<p>当社のソリューション、サービス、製品の詳細については、お問い合わせください。 </p>
 		<button type="button"><p>お問い合わせ</p></button>
 	</section>
 	<footer>
-		<section>
-			<h2>ソリューションとサービス</h2>
-			<ul>
-				<li><a href="">ソフトウェア開発</a></li>
-				<li><a href="">アウトソーシング</a></li>
-				<li><a href="">品質及びプロセス管理</a></li>
-				<li><a href="">コンサルティング</a></li>
-				<li><a href="">IoT対応ソリューション</a></li>
+		<div class="lists">
+			<section>
+				<h2>ソリューションとサービス</h2>
+				<ul>
+					<li><a href="">ソフトウェア開発</a></li>
+					<li><a href="">アウトソーシング</a></li>
+					<li><a href="">品質及びプロセス管理</a></li>
+					<li><a href="">コンサルティング</a></li>
+					<li><a href="">IoT対応ソリューション</a></li>
+				</ul>
+			</section>
+			<section>
+				<h2>製品</h2>
+				<ul>
+					<li><a href="">教育管理システム</a></li>
+					<li><a href="">人的リソース管理システム</a></li>
+					<li><a href="">顧客関係管理システム</a></li>
+					<li><a href="">コンテンツ管理システム</a></li>
+				</ul>
+			</section>
+			<section>
+				<h2>制度</h2>
+				<ul>
+					<li><a href="">私達について</a></li>
+					<li><a href="">コンピテンシー</a></li>
+					<li><a href="">仕事のパートナー</a></li>
+				</ul>
+			</section>
+			<section>
+				<h2>コミュニケーション</h2>
+				<ul>
+					<li><a href="">資料請求フォーム</a></li>
+					<li><a href="">エキスパートリクエストフォーム</a></li>
+				</ul>
+			</section>
+		</div>
+		<div class="bottom">
+			<p><small>© Copyright 2025 Lorem</small></p>
+			<ul class="sns">
+				<li><a href=""><img src="images/icon_01.png" width="32" height="32" alt=""></a></li>
+				<li><a href=""><img src="images/icon_02.png" width="27" height="32" alt=""></a></li>
+				<li><a href=""><img src="images/icon_03.png" width="32" height="32" alt=""></a></li>
+				<li><a href=""><img src="images/icon_04.png" width="13" height="32" alt=""></a></li>
+				<li><a href=""><img src="images/icon_05.png" width="52" height="32" alt=""></a></li>
 			</ul>
-		</section>
-		<section>
-			<h2>製品</h2>
-			<ul>
-				<li><a href="">教育管理システム</a></li>
-				<li><a href="">人的リソース管理システム</a></li>
-				<li><a href="">顧客関係管理システム</a></li>
-				<li><a href="">コンテンツ管理システム</a></li>
-			</ul>
-		</section>
-		<section>
-			<h2>制度</h2>
-			<ul>
-				<li><a href="">私達について</a></li>
-				<li><a href="">コンピテンシー</a></li>
-				<li><a href="">仕事のパートナー</a></li>
-			</ul>
-		</section>
-		<section>
-			<h2>コミュニケーション</h2>
-			<ul>
-				<li><a href="">資料請求フォーム</a></li>
-				<li><a href="">エキスパートリクエストフォーム</a></li>
-			</ul>
-		</section>
-		<p><small>© Copyright 2010-2021 - Can Çevik</small></p>
-		<ul>
-			<li><a href=""><img src="images/MediumLogo.svg" width="32" height="32" alt="Medium"></a></li>
-			<li><a href=""><img src="images/LinkedinLogo.svg" width="32" height="32" alt="LinkedIn"></a></li>
-			<li><a href=""><img src="images/TwitterLogo.svg" width="32" height="32" alt="Twitter"></a></li>
-			<li><a href=""><img src="images/InstagramLogo.svg" width="32" height="32" alt="Instagram"></a></li>
-			<li><a href=""><img src="images/FacebookLogo.svg" width="32" height="32" alt="Facebook"></a></li>
-		</ul>
+		</div>
 	</footer>
 </body>
 </html>
